@@ -238,7 +238,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "rofi", "-show", "drun", NULL };
-static const char *termcmd[]  = { "kitty", NULL };
+static const char *termcmd[]  = { "st", "-A", "10", NULL };
 
 
 
@@ -253,7 +253,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,          spawn,                  SHCMD("firefox-bin") },
 	{ MODKEY|ControlMask,           XK_e,          spawn,                  SHCMD("$HOME/.config/rofi/rofi-files") },
 	{ MODKEY|ShiftMask,             XK_Escape,     spawn,                  SHCMD("$HOME/.config/rofi/power-menu.sh") },
-	{ MODKEY|ShiftMask,             XK_m,          spawn,                  SHCMD("kitty -e ncmpcpp") },
+	{ MODKEY|ShiftMask,             XK_m,          spawn,                  SHCMD("st -A 10 -e ncmpcpp") },
 	{ MODKEY,                       XK_v,          spawn,                  SHCMD("vscodium") },
 	{ MODKEY|ShiftMask,             XK_b,          togglebar,              {0} },
 	{ MODKEY,                       XK_j,          focusstack,             {.i = +1 } },
