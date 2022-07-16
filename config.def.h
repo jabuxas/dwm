@@ -165,6 +165,7 @@ static const Rule rules[] = {
 	RULE(.class = "steam_app_814380", .monitor = 0, .tags = 1 << 3)
 	RULE(.class = "steam_app_1172620", .monitor = 0, .tags = 1 << 3)
 	RULE(.class = "steam_app_730", .monitor = 0, .tags = 1 << 3)
+	RULE(.class = "steam_app_291550", .monitor = 0, .tags = 1 << 3)
 	RULE(.class = "steam_app_1245620", .monitor = 0, .tags = 1 << 3)
 	RULE(.class = "steam_app_570940", .monitor = 0, .tags = 1 << 3)
 	RULE(.class = "steam_app_1172470", .monitor = 0, .tags = 1 << 3)
