@@ -255,7 +255,7 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,           XK_e,          spawn,                  SHCMD("$HOME/.config/rofi/rofi-files") },
 	{ MODKEY|ShiftMask,             XK_Escape,     spawn,                  SHCMD("$HOME/.config/rofi/power-menu.sh") },
 	{ MODKEY|ShiftMask,             XK_m,          spawn,                  SHCMD("st -A 10 -e ncmpcpp") },
-	{ MODKEY,                       XK_v,          spawn,                  SHCMD("vscodium") },
+	{ MODKEY,                       XK_v,          spawn,                  SHCMD("vsvim") },
 	{ MODKEY|ShiftMask,             XK_b,          togglebar,              {0} },
 	{ MODKEY,                       XK_j,          focusstack,             {.i = +1 } },
 	{ MODKEY,                       XK_k,          focusstack,             {.i = -1 } },
